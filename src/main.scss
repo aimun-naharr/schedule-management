@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,600&family=Rubik:wght@500;600&display=swap');
+$primary-color: #13DF9B;
+$secondary-color: #2c3e50;
+$base-color: #dfe2e9;
+$accent-color: #000000;
+$bg-color: #ffffff;
+$font-family-body: 'Open Sans', sans-serif;
+$font-primary-heading: 'Rubik', sans-serif;
+
+
+body{
+    font: $font-family-body;
+    background-color: $base-color;
+    overflow-x: hidden;
+    height: 100vh;
+    color: $secondary-color;
+    box-sizing: border-box;
+}
+a{
+    all: unset;
+}
+button{
+    border: none
+}
+button:disabled{
+    cursor: not-allowed;
+}
+p{
+    margin: 0;
+}
